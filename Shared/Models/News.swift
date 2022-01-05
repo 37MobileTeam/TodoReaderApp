@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct News: Codable { 
+public struct News: Codable, Identifiable { 
 
 
     public var news: String

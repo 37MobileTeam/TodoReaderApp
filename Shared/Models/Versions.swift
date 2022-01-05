@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct Versions: Codable { 
+public struct Versions: Codable, Identifiable { 
 
 
     public var date: String

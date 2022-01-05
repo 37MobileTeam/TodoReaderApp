@@ -6,7 +6,6 @@ target 'TodoApp (iOS)' do
   use_frameworks!
 
   # Pods for TodoApp (iOS)
-
 end
 
 target 'TodoApp (macOS)' do

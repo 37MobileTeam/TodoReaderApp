@@ -8,38 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         TabView {
-            Text("代办(Todo)")
+            TodolistView()
                 .tabItem {
                     Image(systemName: "star.fill")
                     Text("代办(Todo)")
                 }.tag(0)
 
-            Text("问题(Issues)")
+            IssuesView()
                 .tabItem {
-                    Image(systemName: "star")
+                    Image(systemName: "square.fill")
                     Text("问题(Issues)")
                 }.tag(1)
             
-            Text("日志(UpdateLog)")
+            VersionsView()
                 .tabItem {
                     Image(systemName: "star")
                     Text("日志(UpdateLog)")
                 }.tag(2)
             
-            Text("简讯(News)")
+            NewsView()
                 .tabItem {
-                    Image(systemName: "star")
+                    Image(systemName: "square.fill")
                     Text("简讯(News)")
                 }.tag(3)
             
-            Text("关于(AboutUs)")
+            AboutUsView()
                 .tabItem {
                     Image(systemName: "star")
                     Text("关于(AboutUs)")
                 }.tag(4)
-        }.padding()
+        }.padding(3)
+         .font(.headline)
     }
 }
 

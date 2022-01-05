@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		5FA626E5320AA1071D718EFC /* Pods_TodoApp__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0BBE751DE2216FAB195D4 /* Pods_TodoApp__iOS_.framework */; };
 		601E8C8779E7BAACD2168CA4 /* Pods_TodoApp__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8915070C511A4D3D7BDD29 /* Pods_TodoApp__macOS_.framework */; };
+		8245AF192785717A00D15A8E /* TodolistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF182785717A00D15A8E /* TodolistView.swift */; };
+		8245AF1A2785717A00D15A8E /* TodolistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF182785717A00D15A8E /* TodolistView.swift */; };
+		8245AF1C2785718B00D15A8E /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF1B2785718B00D15A8E /* IssuesView.swift */; };
+		8245AF1D2785718B00D15A8E /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF1B2785718B00D15A8E /* IssuesView.swift */; };
+		8245AF1F2785719500D15A8E /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF1E2785719500D15A8E /* NewsView.swift */; };
+		8245AF202785719500D15A8E /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF1E2785719500D15A8E /* NewsView.swift */; };
+		8245AF222785719C00D15A8E /* VersionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF212785719C00D15A8E /* VersionsView.swift */; };
+		8245AF232785719C00D15A8E /* VersionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF212785719C00D15A8E /* VersionsView.swift */; };
+		8245AF252785720400D15A8E /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF242785720400D15A8E /* AboutUsView.swift */; };
+		8245AF262785720400D15A8E /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF242785720400D15A8E /* AboutUsView.swift */; };
+		8245AF28278572EC00D15A8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF27278572EC00D15A8E /* Product.swift */; };
+		8245AF29278572EC00D15A8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245AF27278572EC00D15A8E /* Product.swift */; };
 		829941EA27846E4000977886 /* TodoV2API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829941D027846E4000977886 /* TodoV2API.swift */; };
 		829941EB27846E4000977886 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829941D227846E4000977886 /* APIHelper.swift */; };
 		829941EC27846E4000977886 /* URLSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829941D327846E4000977886 /* URLSessionImplementations.swift */; };
@@ -58,6 +70,8 @@
 		82EEF6A9276C7A2C006FE0F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEF67F276C7A2B006FE0F1 /* ContentView.swift */; };
 		82EEF6AA276C7A2C006FE0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EEF680276C7A2C006FE0F1 /* Assets.xcassets */; };
 		82EEF6AB276C7A2C006FE0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EEF680276C7A2C006FE0F1 /* Assets.xcassets */; };
+		82FD86C327858DF4005F59D8 /* String+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD86C227858DF4005F59D8 /* String+Markdown.swift */; };
+		82FD86C427858DF4005F59D8 /* String+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD86C227858DF4005F59D8 /* String+Markdown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +95,12 @@
 		4F0311D2EB662D8DAAE382A1 /* Pods-TodoApp (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp (macOS).debug.xcconfig"; path = "Target Support Files/Pods-TodoApp (macOS)/Pods-TodoApp (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		5A8915070C511A4D3D7BDD29 /* Pods_TodoApp__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		821526976C3BBB9A86B03527 /* Pods-TodoApp (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp (iOS).release.xcconfig"; path = "Target Support Files/Pods-TodoApp (iOS)/Pods-TodoApp (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		8245AF182785717A00D15A8E /* TodolistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodolistView.swift; sourceTree = "<group>"; };
+		8245AF1B2785718B00D15A8E /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
+		8245AF1E2785719500D15A8E /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		8245AF212785719C00D15A8E /* VersionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionsView.swift; sourceTree = "<group>"; };
+		8245AF242785720400D15A8E /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		8245AF27278572EC00D15A8E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		829941D027846E4000977886 /* TodoV2API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoV2API.swift; path = Shared/TodoV2API.swift; sourceTree = "<group>"; };
 		829941D227846E4000977886 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		829941D327846E4000977886 /* URLSessionImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionImplementations.swift; sourceTree = "<group>"; };
@@ -113,6 +133,7 @@
 		82EEF69E276C7A2C006FE0F1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EEF6A2276C7A2C006FE0F1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		82EEF6A4276C7A2C006FE0F1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		82FD86C227858DF4005F59D8 /* String+Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Markdown.swift"; sourceTree = "<group>"; };
 		A6F0BBE751DE2216FAB195D4 /* Pods_TodoApp__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoApp__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29E74221E7A977C20D868DD /* Pods-TodoApp (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp (iOS).debug.xcconfig"; path = "Target Support Files/Pods-TodoApp (iOS)/Pods-TodoApp (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		DD69FD9A13A122BF0351FAC5 /* Pods-TodoApp (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoApp (macOS).release.xcconfig"; path = "Target Support Files/Pods-TodoApp (macOS)/Pods-TodoApp (macOS).release.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +193,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8245AF172785716100D15A8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8245AF242785720400D15A8E /* AboutUsView.swift */,
+				8245AF1B2785718B00D15A8E /* IssuesView.swift */,
+				8245AF1E2785719500D15A8E /* NewsView.swift */,
+				8245AF182785717A00D15A8E /* TodolistView.swift */,
+				8245AF212785719C00D15A8E /* VersionsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		829941D127846E4000977886 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +231,7 @@
 				829941E927846E4000977886 /* News.swift */,
 				829941E527846E4000977886 /* TodoItem.swift */,
 				829941E727846E4000977886 /* Versions.swift */,
+				8245AF27278572EC00D15A8E /* Product.swift */,
 			);
 			name = Models;
 			path = Shared/Models;
@@ -227,6 +261,7 @@
 			children = (
 				829942262784776500977886 /* TodoApp--iOS--Info.plist */,
 				829941D127846E4000977886 /* API */,
+				8245AF172785716100D15A8E /* View */,
 				829941E427846E4000977886 /* Models */,
 				829941D027846E4000977886 /* TodoV2API.swift */,
 				829942032784705C00977886 /* ViewModel */,
@@ -246,6 +281,7 @@
 				82EEF680276C7A2C006FE0F1 /* Assets.xcassets */,
 				82EEF67F276C7A2B006FE0F1 /* ContentView.swift */,
 				82EEF67E276C7A2B006FE0F1 /* TodoAppApp.swift */,
+				82FD86C227858DF4005F59D8 /* String+Markdown.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -394,8 +430,8 @@
 			targets = (
 				82EEF684276C7A2C006FE0F1 /* TodoApp (iOS) */,
 				82EEF68A276C7A2C006FE0F1 /* TodoApp (macOS) */,
-				82EEF69D276C7A2C006FE0F1 /* Tests macOS */,
 				8299421C278474F900977886 /* TodoAppTests */,
+				82EEF69D276C7A2C006FE0F1 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -493,18 +529,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FD86C327858DF4005F59D8 /* String+Markdown.swift in Sources */,
 				829941EB27846E4000977886 /* APIHelper.swift in Sources */,
 				829941F327846E4000977886 /* CodableHelper.swift in Sources */,
 				829941F827846E4000977886 /* JSONEncodingHelper.swift in Sources */,
 				829941FB27846E4000977886 /* Configuration.swift in Sources */,
 				829941FC27846E4000977886 /* TodoItem.swift in Sources */,
 				829941F527846E4000977886 /* OpenISO8601DateFormatter.swift in Sources */,
+				8245AF222785719C00D15A8E /* VersionsView.swift in Sources */,
 				829941FE27846E4000977886 /* Versions.swift in Sources */,
 				8299422A2784796800977886 /* NewsViewModel.swift in Sources */,
 				829941FA27846E4000977886 /* SynchronizedDictionary.swift in Sources */,
 				829942022784705200977886 /* TodoViewModel.swift in Sources */,
+				8245AF1C2785718B00D15A8E /* IssuesView.swift in Sources */,
 				8299422C2784796800977886 /* VersionsViewModel.swift in Sources */,
+				8245AF28278572EC00D15A8E /* Product.swift in Sources */,
 				829941EA27846E4000977886 /* TodoV2API.swift in Sources */,
+				8245AF1F2785719500D15A8E /* NewsView.swift in Sources */,
+				8245AF192785717A00D15A8E /* TodolistView.swift in Sources */,
+				8245AF252785720400D15A8E /* AboutUsView.swift in Sources */,
 				82EEF6A8276C7A2C006FE0F1 /* ContentView.swift in Sources */,
 				829941F627846E4000977886 /* Extensions.swift in Sources */,
 				82EEF6A6276C7A2C006FE0F1 /* TodoAppApp.swift in Sources */,
@@ -522,18 +565,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FD86C427858DF4005F59D8 /* String+Markdown.swift in Sources */,
 				8299423B27847CE400977886 /* APIHelper.swift in Sources */,
 				8299420B278473DF00977886 /* TodoViewModel.swift in Sources */,
 				82EEF6A9276C7A2C006FE0F1 /* ContentView.swift in Sources */,
 				8299423427847CDB00977886 /* TodoV2API.swift in Sources */,
 				8299422F2784796800977886 /* IssuesViewModel.swift in Sources */,
 				8299423C27847CE400977886 /* APIs.swift in Sources */,
+				8245AF232785719C00D15A8E /* VersionsView.swift in Sources */,
 				8299423F27847CE400977886 /* JSONEncodingHelper.swift in Sources */,
 				8299423E27847CE400977886 /* Models.swift in Sources */,
 				8299423227847CD800977886 /* News.swift in Sources */,
 				8299423827847CE400977886 /* SynchronizedDictionary.swift in Sources */,
+				8245AF1D2785718B00D15A8E /* IssuesView.swift in Sources */,
 				8299423927847CE400977886 /* Configuration.swift in Sources */,
+				8245AF29278572EC00D15A8E /* Product.swift in Sources */,
 				8299423027847CD800977886 /* Issues.swift in Sources */,
+				8245AF202785719500D15A8E /* NewsView.swift in Sources */,
+				8245AF1A2785717A00D15A8E /* TodolistView.swift in Sources */,
+				8245AF262785720400D15A8E /* AboutUsView.swift in Sources */,
 				8299422D2784796800977886 /* VersionsViewModel.swift in Sources */,
 				82EEF6A7276C7A2C006FE0F1 /* TodoAppApp.swift in Sources */,
 				8299423127847CD800977886 /* TodoItem.swift in Sources */,
@@ -682,6 +732,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -735,6 +787,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -760,7 +814,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -772,7 +826,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -794,7 +848,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -806,7 +860,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

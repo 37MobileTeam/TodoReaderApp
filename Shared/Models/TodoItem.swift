@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct TodoItem: Codable { 
+public struct TodoItem: Codable, Identifiable { 
 
 
     public var dueDateTimeZone: String
