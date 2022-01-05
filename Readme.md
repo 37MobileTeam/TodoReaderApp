@@ -4,9 +4,6 @@
 
 1. UI界面展示如下：
 
-![截屏2022-01-05 下午6.25.31.png](attachments/f81a2a05.png)
-
-
 ![截屏2022-01-05 下午6.25.37.png](attachments/4cdc5fad.png)
 
 ![截屏2022-01-05 下午6.25.47.png](attachments/51893675.png)
